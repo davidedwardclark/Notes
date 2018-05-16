@@ -1,0 +1,32 @@
+Move to a specific line and column. eg. 30:10
+Control + G
+
+Search for a function in a file.
+Command + R
+
+Join the next line with the current line.
+Command + J
+
+Move the current line up or down.
+Command + Control + Up/Down
+
+Duplicate the current line.
+Command + Shift + D
+
+Delete to end of line.
+Control + Shift + K
+
+Delete the current word.
+Option + Backspace
+
+Find the next occurrence of a search result.
+Command + G
+
+Checkout HEAD revision.
+Option + Command + Z
+
+Git blame.
+Option + G, B
+
+Git history on file.
+Option + G, H
