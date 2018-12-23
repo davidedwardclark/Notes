@@ -1,0 +1,45 @@
+VI
+
+
+
+
+MOVING AROUND
+
+j             Down a line.
+k             Up a line.
+h             Back a character.
+l             Forward a character.
+ctrl+d        Scroll down half a screen.
+ctrl+u        Scroll up half a screen.
+G             Go to last line.
+
+
+
+
+INPUT (Esc to exit)
+
+a             Append after cursor.
+i             Insert before cursor.
+o             Open line below.
+O             Open line above.
+
+
+
+
+DELETE AND UNDO COMMANDS
+
+dd            Delete line.
+D             Delete to end of line.
+x             Delete character.
+u             Undo last change.
+
+
+
+
+FILE MANAGEMENT
+
+:wq           Save and quit.
+:q!           Quit without saving changes.
+
+
+
