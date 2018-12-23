@@ -1,0 +1,127 @@
+UNIX COMMANDS
+
+
+
+
+SHORTCUTS
+
+ctrl+a                    Move cursor to beginning of line.
+tab+tab                   Do this while cd'ing to see the contents of a directory.
+
+
+
+
+PIPES AND REDIRECTION
+
+command > file             Redirects command output to a file. Overwrite what is there.
+command >> file            Append command output to a file.
+command < file             Get file input for command.
+command < file1 > file2     Get input from file1, process with command, output to file2.
+command1 | command2       Pipe command1 to command2.
+
+
+
+
+FILE SYSTEM
+
+ls                        List items in current directory.
+ls -l                     List items in current directory in long format to see permissions etc.
+ls -a                     List items in current directory including hidden files.
+ls -F                     List items in current directory and show directories with a slash and executables with a star.
+ls dir                    List items in directory dir.
+cd dir                    Change directory to dir.
+cd ..                     Go up one directory.
+cd /                      Go to the root directory.
+cd ~                      Go to your home directory.
+cd -                      Go to the last directory you were just in.
+pwd                       Show present working directory.
+mkdir dir                 Make directory dir.
+rm file                    Remove file.
+rm -r dir                 Remove directory dir recursively.
+cp file1 file2              Copy file1 to file2.
+cp -r dir1 dir2           Copy directory dir1 to dir2 recursively.
+mv file1 file2              Move (rename) file1 to file2.
+
+
+
+
+FILES AND OUTPUT
+
+touch file                 Create or update file.
+cat file                   Output the contents of file.
+less file                  View file with page navigation.
+head file                  Output the first ten lines of a file.
+tail file                  Output the last ten lines of a file.
+tail -f file               Output the contents of a file as it grows.
+vi file                    Edit file.
+echo                      Output text.
+
+
+
+
+PERMISSIONS
+
+chmod ugo file             Change permissions of file. u - user. g - group. o - everyone.
+7                         Full permissions.
+6                         Read and write only.
+5                         Read and execute only.
+4                         Read only.
+3                         Write and execute only.
+2                         Write only.
+1                         No permissions.
+chmod 600 file             You can read and write. Good for files.
+chmod 700 file             You can read/write/execute. Good for scripts.
+chmod 644 file             You can read/write. Everyone else can read. Good for web pages.
+chmod 755 file             You can read/write/execute. Everyone else can read/execute. Good for shared programs.
+
+
+
+
+SEARCHING
+
+find file                   Find all instances of file in system.
+grep pattern file          Search for pattern in file.
+grep -rn pattern dir      Search recursively for pattern in dir and show the line number found.
+
+
+
+
+NETWORKING
+
+ping host                 Ping a host and output results.
+whois domain              Get information on domain.
+ssh -p port user@host     Connect to host as user with port.
+
+
+
+
+COMPRESSION
+
+tar cf file.tar files       Create a tar named file.tar containing files. No compression.
+tar xf file.tar            Extract the files from the tar.
+tar czf file.tar.gz files   Create a tar with gzip compression.
+tar xzf file.tar.gz        Extract a tar using gzip.
+gzip file                  Gzip a file.
+gzip -d file               Decompress a gzip file.
+
+
+
+
+PROCESS MANAGEMENT
+
+ps                        Display current active processes.
+top                       Display all running processes.
+kill pid                  Kill process id pid.
+
+
+
+
+SYSTEM
+
+shutdown                  Shutdown the machine.
+reboot                    Restart machine.
+date                      Show the current date and time.
+whoami                    Who you are logged in as.
+finger user                Display information about a user.
+man command               Show the manual for a command.
+df                        Show disk usage.
