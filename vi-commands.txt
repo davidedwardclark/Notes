@@ -16,7 +16,7 @@ G             Go to last line.
 
 
 
-INPUT (Esc to exit)
+INPUT
 
 a             Append after cursor.
 i             Insert before cursor.
