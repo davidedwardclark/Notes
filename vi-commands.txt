@@ -22,6 +22,7 @@ a             Append after cursor.
 i             Insert before cursor.
 o             Open line below.
 O             Open line above.
+Esc           Exit input mode.
 
 
 
