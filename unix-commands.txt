@@ -1,14 +1,12 @@
 UNIX COMMANDS
 
-
+--
 
 
 SHORTCUTS
 
 ctrl+a                    Move cursor to beginning of line.
 tab+tab                   Do this while cd'ing to see the contents of a directory.
-
-
 
 
 PIPES AND REDIRECTION
@@ -18,8 +16,6 @@ command >> file            Append command output to a file.
 command < file             Get file input for command.
 command < file1 > file2     Get input from file1, process with command, output to file2.
 command1 | command2       Pipe command1 to command2.
-
-
 
 
 FILE SYSTEM
@@ -43,8 +39,6 @@ cp -r dir1 dir2           Copy directory dir1 to dir2 recursively.
 mv file1 file2              Move (rename) file1 to file2.
 
 
-
-
 FILES AND OUTPUT
 
 touch file                 Create or update file.
@@ -55,8 +49,6 @@ tail file                  Output the last ten lines of a file.
 tail -f file               Output the contents of a file as it grows.
 vi file                    Edit file.
 echo                      Output text.
-
-
 
 
 PERMISSIONS
@@ -75,8 +67,6 @@ chmod 644 file             You can read/write. Everyone else can read. Good for 
 chmod 755 file             You can read/write/execute. Everyone else can read/execute. Good for shared programs.
 
 
-
-
 SEARCHING
 
 find file                   Find all instances of file in system.
@@ -84,15 +74,11 @@ grep pattern file          Search for pattern in file.
 grep -rn pattern dir      Search recursively for pattern in dir and show the line number found.
 
 
-
-
 NETWORKING
 
 ping host                 Ping a host and output results.
 whois domain              Get information on domain.
 ssh -p port user@host     Connect to host as user with port.
-
-
 
 
 COMPRESSION
@@ -105,15 +91,11 @@ gzip file                  Gzip a file.
 gzip -d file               Decompress a gzip file.
 
 
-
-
 PROCESS MANAGEMENT
 
 ps                        Display current active processes.
 top                       Display all running processes.
 kill pid                  Kill process id pid.
-
-
 
 
 SYSTEM

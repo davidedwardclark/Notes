@@ -1,6 +1,6 @@
 VI
 
-
+--
 
 
 MOVING AROUND
@@ -14,8 +14,6 @@ ctrl+u        Scroll up half a screen.
 G             Go to last line.
 
 
-
-
 INPUT
 
 a             Append after cursor.
@@ -23,8 +21,6 @@ i             Insert before cursor.
 o             Open line below.
 O             Open line above.
 Esc           Exit input mode.
-
-
 
 
 DELETE AND UNDO COMMANDS
@@ -35,12 +31,7 @@ x             Delete character.
 u             Undo last change.
 
 
-
-
 FILE MANAGEMENT
 
 :wq           Save and quit.
 :q!           Quit without saving changes.
-
-
-
