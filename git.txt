@@ -1,0 +1,111 @@
+GIT
+
+--
+
+
+CONFIG
+
+Set username.
+git config --global user.name "davidedwardclark"
+
+Set email.
+git config --global user.email "david@textandpixel.com"
+
+
+REPOS
+
+Create a repository.
+git init
+
+Clone a remote repository.
+git clone /path/to/repository/
+
+Get the status.
+git status
+
+View recent commits.
+git log
+
+Mark a significant changeset.
+git tag 1.0.0 <commitID>
+
+
+BRANCHES
+
+List all branches in the repository and tell you waht branch you are on.
+git branch
+
+Create a new branch and switch to it.
+git checkout -b <branchname>
+
+Switch to another branch.
+git checkout <branchname>
+
+Delete a branch.
+git branch -d <branchname>
+
+Push branch to remote repository so others can use it.
+git push origin <branchname>
+
+Push all branches to remote repository.
+git push --all origin
+
+Delete a branch on your remote repository.
+git push origin :<branchname>
+
+Merge a different branch into your active branch.
+git merge <branchname>
+
+Preview changes before merging.
+git diff <sourcebranch> <targetbranch>
+
+
+STAGE AND COMMIT
+
+Add files.
+git add /path/to/file/
+
+Commit staged files.
+git commit -m "Commit message"
+
+
+STASHING AND UNDO
+
+Stash changes for later.
+git stash
+
+Apply stashed changes.
+git stash pop
+
+Undo local changes.
+git checkout -- <filename>
+
+Undo all local changes.
+git reset --hard
+
+Unstage the file but keep the changes.
+git restore --staged <filename>
+
+Unstage everything but keep local changes.
+git reset
+
+
+WORK WITH REMOTE REPO
+
+Push commits to origin repository.
+git push
+
+Pull commits from origin repository.
+git pull
+
+List currenlty configured remote repository.
+git remote -v
+
+
+MERGE CONFLICTS
+
+View all merge conflicts.
+git diff
+
+View conflicts against base file.
+git diff --base <filename>
